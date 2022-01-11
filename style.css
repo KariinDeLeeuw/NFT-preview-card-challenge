@@ -1,11 +1,22 @@
 body {
-  background-color: #0d192d;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
 }
 
 .nft-card {
   margin: 120px auto;
   width: 400px;
   padding: 300px 25px;
-  background-color: #16273f;
-  border-radius: 5%;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  margin-top: -275px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #d0dae7;
 }
