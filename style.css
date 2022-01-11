@@ -6,25 +6,29 @@ body {
 .nft-card {
   margin: 100px auto;
   width: 350px;
-  padding: 50px 25px;
+  padding: 20px 25px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 20px;
 }
 
 .img-equilibrium {
   width: 100%;
-  margin-top: -25px;
   border-radius: 10px;
-}
-
-h1 {
-  color: hsl(0, 0%, 100%);
 }
 
 p {
   font-size: 18px;
   color: hsl(215, 51%, 70%);
   font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .p-eth {
@@ -53,5 +57,4 @@ hr {
 .p-sec-div {
   display: flex;
   align-items: center;
-  /* justify-content: left; */
 }
