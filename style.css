@@ -1,23 +1,29 @@
 body {
   background-color: hsl(217, 54%, 11%);
   font-family: "Outfit", sans-serif;
+  font-size: 18px;
 }
 
 .nft-card {
-  margin: 100px auto;
-  width: 350px;
+  margin: 60px auto;
+  width: 300px;
   padding: 20px 25px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 20px;
 }
 
 .img-equilibrium {
+  margin-top: 5px;
   width: 100%;
   border-radius: 10px;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 p {
-  font-size: 18px;
   color: hsl(215, 51%, 70%);
   font-weight: 300;
 }
@@ -33,6 +39,7 @@ a:hover {
 
 .p-eth {
   color: hsl(178, 100%, 50%);
+  font-weight: 600;
 }
 
 .p-div {
