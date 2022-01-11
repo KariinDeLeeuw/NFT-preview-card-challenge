@@ -11,7 +11,7 @@ body {
   border-radius: 20px;
 }
 
-img {
+.img-equilibrium {
   width: 100%;
   margin-top: -25px;
   border-radius: 10px;
@@ -29,4 +29,29 @@ p {
 
 .p-eth {
   color: hsl(178, 100%, 50%);
+}
+
+.p-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.img-avatar {
+  width: 30%;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.p-img {
+  margin-left: -75px;
+}
+
+.p-sec-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: left; */
 }
